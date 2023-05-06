@@ -1,0 +1,40 @@
+.NavbarCon{
+    background-color:#9796f0;
+    padding:10px;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.EmojiCon{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmojiImage{
+    margin-right:0px;
+}
+
+.Heading{
+    color:white;
+    font-size:20px;
+}
+
+.Score{
+    color:white;
+    font-weight: 500;
+    margin-right:20px;
+}
+
+.TopScore{
+    color:white;
+    font-weight: 500;
+}
+
+.ScoreCon{
+    display:flex;
+    flex-direction: row;
+}

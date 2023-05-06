@@ -1,0 +1,17 @@
+
+.CardCon{
+    list-style-type: none;
+}
+
+.Button{
+    background-color: #ffffff33;
+    border:2px solid #ffffff33;
+    border-radius: 10px;
+    margin:10px;
+    padding:30px;
+    cursor: pointer;
+}
+
+.CardImage{
+    margin:1px;
+}

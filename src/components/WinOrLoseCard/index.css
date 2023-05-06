@@ -1,0 +1,54 @@
+.WinCard{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #ffffff33;
+    margin:50px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: #ffffff33;
+    @media screen and (max-width:576px){
+        flex-direction: column;
+    }
+}
+
+.ScoreContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:576px){
+        order:1;
+    }
+}
+
+.Header{
+    font-weight: bold;
+    color:white;
+}
+
+.Scoring{
+    color:white;
+    font-weight: bold;
+}
+.Number{
+    color:#6a59ff;
+    font-weight: bold;
+}
+
+.PlayButton{
+    border:none;
+    background-color:#ffce27;
+    color:#3d3d3d;
+    border-radius:10px;
+    cursor: pointer;
+    padding:10px;
+}
+
+.ImageCon{
+    margin:1px;
+    @media screen and (max-width: 576px) {
+        order:0;
+    }
+}
